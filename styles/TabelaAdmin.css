@@ -1,0 +1,51 @@
+table {
+  border: 1px solid #f1e9e9;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: inherit;
+  font-family: "Sansita", sans-serif;
+}
+
+table td,
+table th {
+  border: 1px solid #aab8c2;
+  color: #e1e8ed;
+  padding: 5px;
+  text-align: center;
+}
+
+table th {
+  background-color: #1da1f2;
+  color: #e1e8ed;
+  font-size: 20px;
+}
+
+
+.botoes-admin{
+  display: flex;
+  justify-content: space-evenly;
+}
+td button:hover {
+  cursor: pointer;
+  background-color: #fefefe;
+  color: #fff;
+  transform: scale(1.1);
+}
+.botaoaddmembro button:hover {
+  transform: scale(1.05);
+  background-color: #0797f0;
+  color: #f1f1f1;
+}
+.botaoaddmembro {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 603px) {
+  td button {
+    margin: 0 0px;
+  }
+}
