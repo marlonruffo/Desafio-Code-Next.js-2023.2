@@ -91,7 +91,6 @@ export function TabelaAdmin() {
 
   return (
     <>
-      <div className="Titulopaginas">Gerenciar membros</div>
       <div className="botaoaddmembro">
         <button onClick={() => setModalCriacaoAberto(true)}>
           Adicionar Membro
@@ -121,7 +120,7 @@ export function TabelaAdmin() {
                     setModalDeleteAberto(true);
                   }}
                 >
-                  <FiTrash2 size={30} color="#E1E8ED" />
+                  <FiTrash2 size={19} color="#E1E8ED" />
                 </button>
                 <button
                   onClick={() => {
@@ -129,7 +128,7 @@ export function TabelaAdmin() {
                     setModalEdicaoAberto(true);
                   }}
                 >
-                  <MdEdit size={30} color="#E1E8ED" />
+                  <MdEdit size={19} color="#E1E8ED" />
                 </button>
                 <button
                   onClick={() => {
@@ -137,7 +136,7 @@ export function TabelaAdmin() {
                     setModalAberto(true);
                   }}
                 >
-                  <FiEye size={30} color="#E1E8ED" />
+                  <FiEye size={19} color="#E1E8ED" />
                 </button>
               </td>
             </tr>

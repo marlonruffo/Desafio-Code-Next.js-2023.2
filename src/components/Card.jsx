@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Artigo/artigocomponent.module.scss';
-import Image from 'next/image';
+import NextImage from 'next/image';
 
 export function CardProduto(props) {
     return (
