@@ -25,6 +25,7 @@ export function TabelaMembros() {
             <th>Cargo</th>
             <th>Aniversário</th>
             <th>E-mail</th>
+
           </tr>
         </thead>
         <tbody>

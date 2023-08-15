@@ -1,97 +1,92 @@
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
 
-    color: #e1e8ed;
-  }
-  
-  .left-side {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar-logo {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-  }
-  
-  .navbar-site {
-    font-size: 18px;
-    font-family: "Pridi", serif;
-    font-weight: 100;
-  }
-  
-  .right-side ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .right-side ul li {
-    margin-right: 10px;
-  }
-  
-  .right-side ul li a {
-    text-decoration: none;
-    color: #e1e8ed;
-    font-family: "Pridi", serif;
-    font-weight: 100;
-  }
-  
-  .right-side ul li a:hover {
-    color: #1da1f2;
-  }
-  
-  .login-link {
-    color: #e1e8ed !important;
-    background-color: #1da1f2;
-    border-radius: 20px;
-    padding: 8px 16px;
-  }
-  
-  .login-link:hover {
-    background-color: #1da1f2 !important;
-    color: #14171A !important;
-    font-weight: 500;
-  }
-  
-  @media (max-width: 629px) {
-    .navbar-site{
-        display: none;
-    }
-  
-
-  }
-  @media (max-width: 461px) {
-    .navbar-site{
-        display: none;
-    }
-    .right-side ul a{
-        font-size: 15px;
-    }
-  
-
-  }
-  @media (max-width: 444px) {
-  .right-side ul a{
-    font-size: 10px;
+  color: #e1e8ed;
 }
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar-site {
+  font-size: 18px;
+  font-family: "Pridi", serif;
+  font-weight: 100;
+}
+
+.right-side ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right-side ul li {
+  margin-right: 10px;
+}
+
+.right-side ul li a {
+  text-decoration: none;
+  color: #e1e8ed;
+  font-family: "Pridi", serif;
+  font-weight: 100;
+}
+
+.right-side ul li a:hover {
+  color: #1da1f2;
+}
+
+.login-link {
+  color: #e1e8ed !important;
+  background-color: #1da1f2;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+.login-link:hover {
+  background-color: #1da1f2 !important;
+  color: #14171a !important;
+  font-weight: 500;
+}
+
+@media (max-width: 629px) {
+  .navbar-site {
+    display: none;
+  }
+}
+@media (max-width: 461px) {
+  .navbar-site {
+    display: none;
+  }
+  .right-side ul a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 444px) {
+  .right-side ul a {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 348px) {
-    .right-side ul a{
-      font-size: 8px;
+  .right-side ul a {
+    font-size: 8px;
   }
+}
+@media (max-width: 309px) {
+  .right-side ul a {
+    font-size: 6px;
   }
-  @media (max-width: 309px) {
-    .right-side ul a{
-      font-size: 6px;
-  }
-  }
-  
+}

@@ -1,15 +1,14 @@
 "use client";
 
-import styles from '../../global.css'
+import styles from "../../global.css";
 import NextImage from "next/image";
-import { TabelaMembros } from '@/src/components/TabelaMembros';
-import { Navbar } from '@/src/components/Navbar';
-import { Title } from '@/src/components/Title';
+import { TabelaMembros } from "@/src/components/TabelaMembros";
+import { Navbar } from "@/src/components/Navbar";
+import { Title } from "@/src/components/Title";
 export default function MembrosPage() {
-
-    return (
-        <>
-        <Navbar
+  return (
+    <>
+      <Navbar
         logo="/Images/logo.png"
         titulo="NoteWave"
         item1="Home"
@@ -20,9 +19,9 @@ export default function MembrosPage() {
         link2="/contato"
         link3="/membros"
         link4="/gerenciamento"
-        />
-        <Title title="Membros"/>
-        <TabelaMembros/>
-        </>
-    )
+      />
+      <Title title="Membros" />
+      <TabelaMembros />
+    </>
+  );
 }
