@@ -1,0 +1,55 @@
+.footer-container{
+    margin-top: 20px;
+    background-color: #657786;
+}
+.footer-info{
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.esquerda{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8vw;
+    color: #E1E8ED;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.direita{
+    padding-right: 20px;
+    display: flex;
+    gap: 10px;
+}
+.cep{
+    padding-top: 20px;
+}
+.icon:hover{
+    transform: scale3d(1.2, 1.2, 1.2);
+    cursor: pointer;
+}
+
+@media (max-width: 458px) {
+    .meio{
+        display: none;
+    }
+    .esquerda{
+        display: none;
+
+
+    }
+.direita{
+    margin-right: 0px;
+    display: flex;
+    
+    gap: 10px;
+}
+.footer-info{
+    justify-content: space-evenly;
+}
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+
+
+  }

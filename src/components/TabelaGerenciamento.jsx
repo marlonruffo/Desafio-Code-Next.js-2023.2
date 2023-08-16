@@ -120,7 +120,7 @@ export function TabelaAdmin() {
                     setModalDeleteAberto(true);
                   }}
                 >
-                  <FiTrash2 size={19} color="#E1E8ED" />
+                  <FiTrash2 size={19} color="black" />
                 </button>
                 <button
                   onClick={() => {
@@ -128,7 +128,7 @@ export function TabelaAdmin() {
                     setModalEdicaoAberto(true);
                   }}
                 >
-                  <MdEdit size={19} color="#E1E8ED" />
+                  <MdEdit size={19} color="black" />
                 </button>
                 <button
                   onClick={() => {
@@ -136,7 +136,7 @@ export function TabelaAdmin() {
                     setModalAberto(true);
                   }}
                 >
-                  <FiEye size={19} color="#E1E8ED" />
+                  <FiEye size={19} color="black" />
                 </button>
               </td>
             </tr>

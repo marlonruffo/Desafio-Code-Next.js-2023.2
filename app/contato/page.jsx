@@ -4,6 +4,7 @@ import NextImage from "next/image";
 import { SectionContato } from "@/src/components/SectionContato";
 import { Navbar } from "@/src/components/Navbar";
 import { Title } from "@/src/components/Title";
+import {Footer} from "@/src/components/Footer";
 export default function ContatoPage() {
 
     return (
@@ -23,6 +24,16 @@ export default function ContatoPage() {
       />
       <Title title="Contato" />
         <SectionContato />
+
+
+        <Footer
+      telefone="(11) 99999-9999"
+      cep="99999-999"
+      facebooklink="https://www.facebook.com/"
+      instagramlink="https://www.instagram.com/"
+      linkedinlink="https://www.linkedin.com/"
+      gmailURL="https://mail.google.com/"
+      />
       </>
     )
 }
