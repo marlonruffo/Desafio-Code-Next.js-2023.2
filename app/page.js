@@ -3,6 +3,9 @@ import React from 'react';
 import styles from '../global.css';
 import { Navbar } from '@/src/components/Navbar';
 import {Footer} from "@/src/components/Footer";
+import { Title } from "@/src/components/Title";
+import { SectionMain } from "@/src/components/SectionMain";
+import { Product } from "@/src/components/Product";
 export default function Home() {
     return (
       <>
@@ -18,6 +21,45 @@ export default function Home() {
       link3="/membros"
       link4="/gerenciamento"
       />
+      <Title title="NoteWave" />
+      <SectionMain
+      imagem="/Images/music.png"
+      nomeDoSite="NoteWave"
+      descricao=", o destino definitivo para músicos e compositores apaixonados pelo mundo da música. Aqui, você encontrará uma ampla e cuidadosamente selecionada variedade de instrumentos musicais e serviços de composição, projetados para inspirar, elevar e aprimorar a sua jornada musical. "
+      />
+      <Title title="Produtos" />
+      <div className='product-cards'>
+      <Product
+      imagem="/Images/instrumentos.png"
+      nomeDoProduto="Instrumentos"
+      preco="R$ 999,99"
+      />
+            <Product
+      imagem="/Images/aulas.png"
+      nomeDoProduto="Aulas"
+      preco="R$ 100,99"
+      />
+            <Product
+      imagem="/Images/eventos.png"
+      nomeDoProduto="Eventos"
+      preco="R$ 200,99"
+      />
+            <Product
+      imagem="/Images/vinil.png"
+      nomeDoProduto="Vinil"
+      preco="R$ 15,99"
+      />
+            <Product
+      imagem="/Images/revista.png"
+      nomeDoProduto="Revista"
+      preco="R$ 20,99"
+      />
+            <Product
+      imagem="/Images/fone.png"
+      nomeDoProduto="Fones"
+      preco="R$ 150,99"
+      />
+      </div>
 
 
 

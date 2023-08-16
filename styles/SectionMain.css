@@ -1,0 +1,45 @@
+.container-main {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-main p {
+    font-family: 'Quicksand', sans-serif;
+    color: #E1E8ED;
+    text-align: left;
+    font-size: 2.5vw;
+}
+
+
+@media (max-width: 857px) {
+    .container-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 692px) {
+    .imagem-main {
+        width: 400px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 402px) {
+    .imagem-main {
+        width: 300px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 304px) {
+    .imagem-main {
+        width: 250px;
+        height: 180px;
+    }
+
+}
