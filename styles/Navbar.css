@@ -56,9 +56,9 @@
 }
 
 .login-link:hover {
-  background-color: #1da1f2 !important;
-  color: #14171a !important;
-  font-weight: 500;
+  background-color: #e1e8ed;
+  color: #1da1f2 !important;
+  transition: 0.25s;
 }
 
 @media (max-width: 629px) {
