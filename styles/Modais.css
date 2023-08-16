@@ -1,21 +1,46 @@
 .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  input {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+input {
+  width: 100%;
   opacity: 90%;
-  letter-spacing: 1px;
-  font-family: "Pridi", serif;
+  font-family: 'Quicksand', sans-serif;
   transition: 0.5s;
   outline-color: #1da1f2;
+  background: #FAF9F9;
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+.Botoes {
+  font-family: 'Quicksand', sans-serif;
+  gap: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.Botoes a {
+  border-radius: 40px;
+  background: #1DA1F2;
+  box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
 
 .h2viewmodal {
   color: black;
@@ -32,7 +57,15 @@
   display: flex;
   flex-direction: column;
 }
-
+.Botoes a:hover {
+  background-color: #e1e8ed;
+  color: #1da1f2;
+  transition: 0.25s;
+}
+.LogoDoSite {
+  display: flex;
+  justify-content: center;
+}
 
 
 .modal-conteudo {
@@ -40,64 +73,76 @@
   padding: 20px;
   border-radius: 5px;
 }
-.InputBoxesmodal label {
-    font-family: "Open Sans", sans-serif;
-    margin-top: 50px;
-    font-size: 16px;
-    margin-left: 10px;
-    font-weight: bold;
-    color: #af3d3d;
-    opacity: 50%;
-    margin-top: 10px;
-  }
-  
-  .botaoaddmembro button {
-    cursor: pointer;
-    border: 2px solid #1da1f2;
-    border-radius: 10px;
-    color: #fff;
-    background-color: #1da1f2;
-    font-size: 20px;
-  }
-  
 
-  
-  .viewmodal {
-    letter-spacing: 1px;
-    font-family: "Pridi", serif;
-    transition: 0.5s;
-    outline-color: #fbfbfb;
-    padding-left: 10px;
-    font-weight: 400;
-    color: rgb(255, 0, 0);
-    font-size: 19px;
-  }
-  
-  .viewmodalbutton {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background-color: #1da1f2;
-    width: 50%;
-    height: 40px;
-    border: 1px solid #1da1f2;
-    border-radius: 20px;
-    margin: 0 auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 0px;
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: #f2f2f2;
-    margin-top: 10px;
-    cursor: pointer;
-  }
-  
-  .viewmodalbutton:hover {
-    transform: scale3d(1.1, 1.1, 1.1);
-    transition: 0.5s;
-  }
-  
-  
+.InputBoxesmodal label {
+  margin-top: 50px;
+  color: #1da1f2;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.50);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.botaoaddmembro button {
+  cursor: pointer;
+  border: 2px solid #1da1f2;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #1da1f2;
+  font-size: 20px;
+}
+
+
+
+.viewmodal {
+  letter-spacing: 1px;
+  font-family: "Pridi", serif;
+  transition: 0.5s;
+  outline-color: #fbfbfb;
+  padding-left: 10px;
+  font-weight: 400;
+  color: #14171A;
+  font-size: 19px;
+}
+
+.viewmodalbutton {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #1da1f2;
+  width: 50%;
+  height: 40px;
+  border: 1px solid #1da1f2;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f2f2f2;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.Voltar a {
+  background: #657786 !important;
+
+}
+.Voltar a:hover{
+  background: #e1e8ed !important;
+  transition: 0.25s;
+  color: #1da1f2;
+
+}
+
+.viewmodalbutton:hover {
+  background-color: #e1e8ed;
+  color: #1da1f2;
+  transition: 0.25s;
+}

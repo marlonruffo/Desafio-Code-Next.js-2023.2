@@ -149,7 +149,7 @@ export function TabelaAdmin() {
             <div className="Login_box login_boxfuncadmin">
               <div className="LogoDoSite">
                 <NextImage
-                  src="/cloudservice.png"
+                  src="/Images/Logo.png"
                   alt="Logo do Site"
                   width={100}
                   height={100}
@@ -184,7 +184,7 @@ export function TabelaAdmin() {
             <div className="Login_box login_boxfuncadmin">
               <div className="LogoDoSite">
                 <NextImage
-                  src="/cloudservice.png"
+                  src="/Images/Logo.png"
                   alt="Logo do Site"
                   width={100}
                   height={100}
@@ -271,7 +271,7 @@ export function TabelaAdmin() {
             <div className="Login_box login_boxfuncadmin">
               <div className="LogoDoSite">
                 <NextImage
-                  src="/cloudservice.png"
+                  src="/Images/Logo.png"
                   alt="Logo do Site"
                   width={100}
                   height={100}
@@ -306,7 +306,7 @@ export function TabelaAdmin() {
             <div className="Login_box login_boxfuncadmin">
               <div className="LogoDoSite">
                 <NextImage
-                  src="/cloudservice.png"
+                  src="/Images/Logo.png"
                   alt="Logo do Site"
                   width={100}
                   height={100}
