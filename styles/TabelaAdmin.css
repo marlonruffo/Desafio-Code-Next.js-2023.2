@@ -49,9 +49,18 @@ td button:hover {
 
 @media (max-width: 637px) {
   table tr th {
+    font-size: 10px;
+  }
+  table tr td {
+    font-size: 10px;
+  }
+}
+@media (max-width: 398px) {
+  table tr th {
     font-size: 6px;
   }
   table tr td {
     font-size: 6px;
   }
+
 }

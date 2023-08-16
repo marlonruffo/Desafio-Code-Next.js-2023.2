@@ -1,8 +1,10 @@
 .product-card{
+    
     margin-top: 20px;
+
 }
 .corpo{
-    width: 300px;
+    width: 350px;
     background-color: #1DA1F2;
     display: flex;
     flex-direction: column;
@@ -12,10 +14,16 @@
     border-bottom-right-radius: 10px;
     color: #E1E8ED;
     font-family: 'Pridi', serif;
-    font-size: 2vw;
+    font-size: 1.8vw;
     text-decoration: underline;
     height: 100px;
 }
+@media (min-width: 1400px) {
+    .corpo{
+        height: 150px;
+    }
+
+  }
 @media (max-width: 820px) {
     .corpo{
         height: 70px;
