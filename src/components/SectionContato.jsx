@@ -2,54 +2,48 @@ import React from "react";
 import NextImage from "next/image";
 import styles from "../../styles/SectionContato.css";
 
-export function SectionContato() {
+export function SectionContato(props) {
   return (
     <>
-      <section className="contato-section">
-        <div className="info-contato">
-          <div className="redessociais">
-            <div className="titulo-redes">
-              <h2>Entre em contato com a gente</h2>
-            </div>
-            <div className="logo-nome">
-              <div className="redes">
-                <NextImage src="/icons/facebook.svg" width={30} height={30} />
-                <p>Facebook</p>
-              </div>
-              <div className="redes">
-                <NextImage src="/icons/instagram.svg" width={30} height={30} />
-                <p>Instagram</p>
-              </div>
-              <div className="redes">
-                <NextImage src="/icons/linkedin.svg" width={30} height={30} />
-                <p>Linkedin</p>
-              </div>
-              <div className="redes">
-                <NextImage src="/icons/gmail.svg" width={30} height={30} />
-                <p>Gmail</p>
-              </div>
-            </div>
-          </div>
+      <div className="contato-container">
+        <div className="redes-sociais">
+            <NextImage className="baloon" src="/Images/redessociais.png" width={300} height={300} />
+            <div className="info-redes">
 
-          <div className="localizacao">
-            <div className="titulo-localizacao">
-              <h2>Localização</h2>
+
+            <div className="icones">
+            <NextImage src="/icons/facebook.svg" width={65} height={65} />
+            <p>{props.facebook}</p>
+              </div>  
+            <div className="icones">
+
+            <NextImage src="/icons/instagram.svg" width={65} height={65} />
+            <p>{props.instagram}</p>
             </div>
-            <div className="pin">
-              <NextImage src="/Images/pin.png" width={125} height={118} />
+            <div className="icones">
+
+            <NextImage src="/icons/linkedin.svg" width={65} height={65} />
+            <p>{props.linkedin}</p>
             </div>
-            <div className="endereco">
-              <p>
-              Instituto de Ciências Exatas - 
-Rua José Lourenço Kelmer,  Campus Universitário
-Bairro São Pedro
-CEP: 36036-900
-Juiz de Fora – MG
-              </p>
+            <div className="icones">
+
+            <NextImage src="/icons/gmail.svg" width={65} height={65} />
+            <p>{props.gmail}</p>
             </div>
-          </div>
         </div>
-      </section>
+        </div>
+
+        <div className="endereco-local">
+        <div className="endereco-texto">
+    <p>{props.endereco}</p>
+        </div>
+        <NextImage className="map" src="/Images/map.png" width={300} height={300} />
+
+
+
+        </div>
+
+      </div>
     </>
   );
 }

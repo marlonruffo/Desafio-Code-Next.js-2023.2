@@ -1,49 +1,93 @@
-/* Estilos para a seção de contato */
-.contato-section {
-    background-color: #e1e8ed;
-    width: 85%;
-    margin: 0 auto;
-    border-radius: 15px;
-    padding: 20px;
+
+.redes-sociais{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+}
+.endereco-local{
+    
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.endereco-texto p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 30px;
+    font-size: 3.0vw;
+    width: 80%;
+    color: #E1E8ED;
 }
 
-
-.localizacao {
+.info-redes{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    padding-left: 20px;
+    gap: 10px;
 }
-
-.titulo-localizacao h2 {
-
-    margin: 0;
-}
-
-.pin {
-    margin-top: 10px;
-}
-
-.endereco p {
-    margin: 10px 0;
-    text-align: center;
-}
-
-
-.info-contato {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
-}
-
-
-.redes {
+.icones{
     display: flex;
     align-items: center;
+    
+}
+
+.icones p{
+    padding-left: 10px;
+    font-size: 3.0vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #E1E8ED;
+}
+.baloon{
+    margin-left: 20px;
+}
+.map{
     margin-right: 20px;
 }
 
-.redes p {
-    margin: 0 0 0 10px;
-}
+
+@media (max-width: 668px) {
+    .baloon{
+        margin-left: 0px;
+    }
+    .map{
+        margin-right: 0px;
+    }
+    .redes-sociais {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .endereco-local{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .endereco-texto p{
+        padding-left: 0px;
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+  }
+
+  @media (max-width: 304px) {
+    .baloon {
+        
+        width: 200px;
+        height: 200px;
+    }
+    .map{
+        width: 200px;
+        height: 200px;
+    }
+    .icones p{
+        font-weight: 700;
+        font-size: 13px;
+    }
+    
+  }

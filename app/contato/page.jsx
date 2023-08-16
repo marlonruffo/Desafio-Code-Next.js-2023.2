@@ -23,7 +23,15 @@ export default function ContatoPage() {
         link4="/gerenciamento"
       />
       <Title title="Contato" />
-        <SectionContato />
+        <SectionContato 
+        facebook="NoteWave"
+        instagram="NoteWave"
+        linkedin="NoteWave"
+        gmail="contato@notewave.com"
+        endereco= "Instituto de Ciências Exatas - Rua José Lourenço Kelmer,  Campus UniversitárioBairro São PedroCEP: 36036-900 Juiz de Fora – MG"
+        
+        
+        />
 
 
         <Footer
